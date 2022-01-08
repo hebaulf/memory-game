@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react';
 import SingleCard from './components/SingleCard';
-import './App.css';
+// styles
+import { GlobalStyle } from './GlobalStyle';
+import { Container, Header, Button, CardGrid } from "./styles";
 
 // Array of images
 const cardImages = [
-  {"src": "/img/ciri.jpg", matched:false },
-  {"src": "/img/emhyr.jpg", matched:false },
-  {"src": "/img/geralt.jpg", matched:false },
-  {"src": "/img/jaskier.jpg", matched:false },
-  {"src": "/img/triss.jpg", matched:false },
-  {"src": "/img/yennefer.jpg", matched:false }
+  {"src": "memory-game/img/ciri.jpg", matched:false },
+  {"src": "memory-game/img/emhyr.jpg", matched:false },
+  {"src": "memory-game/img/geralt.jpg", matched:false },
+  {"src": "memory-game/img/jaskier.jpg", matched:false },
+  {"src": "memory-game/img/triss.jpg", matched:false },
+  {"src": "memory-game/img/yennefer.jpg", matched:false }
 ]
 
 function App() {
@@ -81,10 +83,15 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
-      <h1>Memory Game</h1>
-      <button onClick={shuffleCards}>New Game</button>
-      <div className="card-grid">
+    <Container className="App">
+      <Header>
+        <h1>Memory Game</h1>
+        <div className="header-right">
+          <p>Turns: {turns}</p>
+          <Button onClick={shuffleCards}>New Game</Button>
+        </div>
+      </Header>
+      <CardGrid className="card-grid">
         {cards.map(card => (
           <SingleCard 
             key={card.id} 
@@ -94,9 +101,9 @@ function App() {
             disabled={disabled}
           />
         ))}
-      </div>
-      <p>Turns: {turns}</p>
-    </div>
+      </CardGrid>
+      <GlobalStyle />
+    </Container>
   );
 }
 

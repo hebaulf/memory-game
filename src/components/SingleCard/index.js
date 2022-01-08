@@ -1,4 +1,4 @@
-import './SingleCard.css';
+import { Wrapper, Card } from './SingleCard.styled'
 
 export default function SingleCard({ card, handleChoice, flipped, disabled }) {
 
@@ -9,8 +9,8 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
     }
 
     return (
-        <div className="card">
-            <div className={flipped ? "flipped" : ""}>
+        <Wrapper>
+            <Card className={flipped ? "flipped" : ""}>
                 <img 
                     className="front" 
                     src={card.src} 
@@ -18,11 +18,11 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
                 />
                 <img 
                     className="back" 
-                    src="/img/cover.jpg" 
+                    src="memory-game/img/cover.jpg" 
                     onClick={handleClick} 
                     alt="card back"
                 />
-            </div>
-        </div>
+            </Card>
+        </Wrapper>
     )
 }
