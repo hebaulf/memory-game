@@ -4,11 +4,12 @@ For this project I created a memory game
 
 - The project is set up with [create-react-app](https://create-react-app.dev/docs/getting-started).
 - I used react hooks (useState ans useEffect).
-- I used styled-components.
+- I used styled-components for styling.
+- Project is deployed using Vercel.
 - Code is commented so you can see what each part is doing.
 - I also created the cards by splicing together background images and png's (with no background) that I found online.
 
-### [Link to Live Site](https://hebaulf.github.io/memory-game/)
+### [Link to Live Site](https://memory-game-lnisd7mi8-hebaulf.vercel.app/)
 
 ### [Link to Figma file for cards](https://www.figma.com/file/4CgYEbhL3pIVVN996kCxPy/Matching-Card-Game?node-id=0%3A1)
 
