@@ -23,20 +23,17 @@ For this project I created a memory game
 
 ## If you want to play around with the code
 
-You can clone the repo:\
-
+You can clone the repo:  
 #### `git clone https://github.com/hebaulf/memory-game.git`
 
 <br>
 
-Then install all dependencies:\
-
+Then install all dependencies:  
 #### `npm install`
 
 <br>
 
-And at last run the app:\
-
+And at last run the app:  
 #### `npm start`
 
 Runs the app in the development mode.\
