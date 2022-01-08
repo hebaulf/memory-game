@@ -19,7 +19,7 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
                 />
                 <img 
                     className="back" 
-                    src="memory-game/img/cover.jpg" 
+                    src="./memory-game/img/cover.jpg" 
                     onClick={handleClick} 
                     alt="card back"
                 />
