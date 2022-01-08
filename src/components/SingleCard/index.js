@@ -3,7 +3,8 @@ import { Wrapper, Card } from './SingleCard.styled'
 export default function SingleCard({ card, handleChoice, flipped, disabled }) {
 
     const handleClick = () => {
-        if (!disabled) {
+        // If card is not disabled then we can click a card to turn it over
+        if (!disabled) { 
             handleChoice(card);
         }
     }
