@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Metamorphous&display=swap");
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: "Metamorphous", cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  background: rgb(34, 34, 16);
+  color: rgb(255, 255, 255);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

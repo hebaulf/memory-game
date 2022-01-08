@@ -1,0 +1,29 @@
+.App {
+  max-width: 1240px;
+  margin: 3rem auto;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  background: none;
+  color: #fff;
+  font-family: "Metamorphous", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: darkgray;
+  color: #333;
+}
+
+.card-grid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
