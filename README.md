@@ -7,7 +7,7 @@ For this project I created a memory game
 - I used styled-components for styling.
 - Project is deployed using Vercel.
 - Code is commented so you can see what each part is doing.
-- I also created the cards by splicing together background images and png's (with no background) that I found online.
+- I also created the cards in Figma by splicing together background images and png's (with no background) that I found online.
 
 ### [Link to Live Site](https://memory-game-lnisd7mi8-hebaulf.vercel.app/)
 
