@@ -6,12 +6,12 @@ import { Container, Header, Button, CardGrid } from "./styles";
 
 // Array of images
 const cardImages = [
-  {"src": "./memory-game/img/ciri.jpg", matched:false },
-  {"src": "./memory-game/img/emhyr.jpg", matched:false },
-  {"src": "./memory-game/img/geralt.jpg", matched:false },
-  {"src": "./memory-game/img/jaskier.jpg", matched:false },
-  {"src": "./memory-game/img/triss.jpg", matched:false },
-  {"src": "./memory-game/img/yennefer.jpg", matched:false }
+  {"src": "./img/ciri.jpg", matched:false },
+  {"src": "./img/emhyr.jpg", matched:false },
+  {"src": "./img/geralt.jpg", matched:false },
+  {"src": "./img/jaskier.jpg", matched:false },
+  {"src": "./img/triss.jpg", matched:false },
+  {"src": "./img/yennefer.jpg", matched:false }
 ]
 
 function App() {
